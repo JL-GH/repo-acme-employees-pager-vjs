@@ -1,0 +1,32 @@
+body {
+  align-items: center;
+}
+#userList {
+  display: flex;
+  flex-direction: row;
+}
+
+#header {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+  align-items: center;
+
+}
+
+#header > div {
+  flex-grow: 1;
+  text-align: center;
+}
+
+.user {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-evenly;
+}
+
+.user > div {
+  flex-grow: 1;
+  text-align: center;
+}
